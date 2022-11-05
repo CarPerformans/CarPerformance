@@ -58,7 +58,7 @@
     background: url(../img/intro-img.jpg) left no-repeat;
     -webkit-background: url(../img/intro-img.jpg) left no-repeat;
     background-size: cover;
-    -webkit-background-size: cover;
+    background-size: -webkit-cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,7 +162,8 @@
     top: 0;
     overflow: hidden;
     height: 300px;
-    transition: all .2s linear;
+    transition: all .2s linearall .2s linear;
+    transition: -webkit-all .2s linearall .2s linear;
 
     @media(max-width: 502px){
         height: 200px;
