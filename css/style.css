@@ -201,6 +201,7 @@ legend {
   background: url(../img/intro-img.jpg) left no-repeat;
   -webkit-background: url(../img/intro-img.jpg) left no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -229,7 +230,6 @@ legend {
   font-weight: 700;
   margin-bottom: 5px;
   color: #fff;
-  font-family: cursive;
 }
 @media (max-width: 679px) {
   .intro__title {
