@@ -163,7 +163,6 @@
     overflow: hidden;
     height: 300px;
     transition: all .2s linearall .2s linear;
-    transition: -webkit-all .2s linearall .2s linear;
 
     @media(max-width: 502px){
         height: 200px;

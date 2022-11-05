@@ -325,7 +325,6 @@ legend {
   height: 300px;
   -webkit-transition: all 0.2s linearall 0.2s linear;
   transition: all 0.2s linearall 0.2s linear;
-  transition: -webkit-all 0.2s linearall 0.2s linear;
 }
 @media (max-width: 502px) {
   .services__item {
