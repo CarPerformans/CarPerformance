@@ -194,39 +194,26 @@ legend {
   background: #BF6430;
 }
 
-.intro {
+._ibg {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-img.gif);
-  background-position: left center;
-  background-size: cover;
-  background-attachment: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  z-index: 1;
 }
-.intro:after {
-  content: "";
+._ibg img {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: -1;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
+
 .intro__title {
-  position: relative;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  z-index: 2;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -242,26 +229,6 @@ legend {
     margin-top: 15px;
     font-size: 29px;
   }
-}
-.intro__phone {
-  text-align: center;
-  margin-top: 30px;
-  z-index: 12123213213;
-  letter-spacing: 1.3px;
-}
-.intro__phone a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #121212;
-  font-size: 17px;
-}
-.intro__phone a box-icon {
-  margin-right: 7px;
-  width: 23px;
 }
 
 .ab__inner {
